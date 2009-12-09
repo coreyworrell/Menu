@@ -18,6 +18,8 @@ CSS classes can be used to configure the presentation styles of the menus, regul
 			->add('Members', 'company/members'))
 		->add('Test Link', 'test');
 		
+	echo $menu;
+		
 ## Adding Attributes
 
 	$attrs = array
